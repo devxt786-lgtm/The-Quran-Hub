@@ -1,6 +1,7 @@
 import React from 'react';
 import { UserCheck, ShieldCheck, Clock, LineChart, CheckCircle2 } from 'lucide-react';
 import { IslamicDivider, IslamicStar } from './IslamicDecor';
+import academySereneImg from '../assets/images/academy_serene_setting_1794325114981.jpg';
 
 export function WhyChooseUs() {
   const benefits = [
@@ -66,7 +67,7 @@ export function WhyChooseUs() {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-[#C6A15B]/30 shadow-xl bg-[#0B271F]">
               <img
-                src="/src/assets/images/academy_serene_setting_1794325114981.jpg"
+                src={academySereneImg}
                 alt="Serene Islamic academy interior with carved archways and open Holy Quran"
                 referrerPolicy="no-referrer"
                 className="w-full h-full aspect-[4/5] object-cover"

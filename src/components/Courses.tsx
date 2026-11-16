@@ -3,6 +3,9 @@ import { Check, ArrowRight, BookOpen, MessageCircle } from 'lucide-react';
 import { IslamicDivider, IslamicStar } from './IslamicDecor';
 import { CourseData, CourseModal } from './CourseModal';
 import { getWhatsAppUrl } from '../config';
+import nooraniQaidaImg from '../assets/images/course_noorani_qaida_1794325113660.jpg';
+import quranReadingImg from '../assets/images/course_quran_reading_1794325115810.jpg';
+import quranTajweedImg from '../assets/images/course_quran_tajweed_1794325116648.jpg';
 
 const COURSES: CourseData[] = [
   {
@@ -10,7 +13,7 @@ const COURSES: CourseData[] = [
     title: 'Noorani Qaida',
     arabicTitle: 'القاعدة النورانية',
     tagline: 'Foundation of Arabic Alphabet & Accurate Phonetics',
-    image: '/src/assets/images/course_noorani_qaida_1794325113660.jpg',
+    image: nooraniQaidaImg,
     alt: 'Traditional Noorani Qaida Arabic learning primer book with wooden pointer',
     level: 'Beginner (No prior Arabic needed)',
     duration: '2 - 3 Months (Self-Paced)',
@@ -47,7 +50,7 @@ const COURSES: CourseData[] = [
     title: 'Quran Reading (Nazra)',
     arabicTitle: 'قراءة القرآن الكريم',
     tagline: 'Fluent Recitation with Rhythm & Proper Flow',
-    image: '/src/assets/images/course_quran_reading_1794325115810.jpg',
+    image: quranReadingImg,
     alt: 'Open Holy Quran pages with gold illumination and clear Arabic script',
     level: 'Elementary to Intermediate',
     duration: '6 - 12 Months (Complete Quran)',
@@ -84,7 +87,7 @@ const COURSES: CourseData[] = [
     title: 'Quran with Tajweed',
     arabicTitle: 'تجويد القرآن الكريم',
     tagline: 'Precision Rules & Melodious Tarteel Recitation',
-    image: '/src/assets/images/course_quran_tajweed_1794325116648.jpg',
+    image: quranTajweedImg,
     alt: 'Color-coded Tajweed Holy Quran with annotated recitation rules',
     level: 'Intermediate to Advanced',
     duration: '4 - 8 Months',

@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight, MessageCircle, ShieldCheck, Clock, Users } from 'lucide-react';
 import { IslamicStar } from './IslamicDecor';
 import { getWhatsAppUrl } from '../config';
+import heroQuranImg from '../assets/images/hero_quran_rehal_1794325114695.jpg';
 
 interface HeroProps {
   onOpenTrialModal: () => void;
@@ -102,7 +103,7 @@ export function Hero({ onOpenTrialModal }: HeroProps) {
               <div className="relative rounded-2xl overflow-hidden border-2 border-[#C6A15B]/40 shadow-2xl bg-[#0B271F]">
                 {/* Visual Asset */}
                 <img
-                  src="/src/assets/images/hero_quran_rehal_1794325114695.jpg"
+                  src={heroQuranImg}
                   alt="Holy Quran on an ornate wooden rehal stand with peaceful sunlight"
                   referrerPolicy="no-referrer"
                   className="w-full h-full aspect-[4/3] object-cover hover:scale-102 transition-transform duration-700"
