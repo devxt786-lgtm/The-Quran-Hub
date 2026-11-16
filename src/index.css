@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-deep: #123F32;
+  --color-emerald-deep-dark: #0B271F;
+  --color-emerald-deep-light: #1B5846;
+  --color-emerald-deep-surface: #0E3328;
+  
+  --color-cream-warm: #F8F5EC;
+  --color-cream-subtle: #F3ECE0;
+  --color-cream-card: #FCFAF6;
+  
+  --color-gold-soft: #C6A15B;
+  --color-gold-light: #DFC07D;
+  --color-gold-dark: #9F7E39;
+  
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-amiri: "Amiri", "Traditional Arabic", serif;
+}
+
+/* Islamic Geometric Background Pattern utility */
+.islamic-pattern {
+  background-color: #123F32;
+  background-image: radial-gradient(#C6A15B 0.75px, transparent 0.75px), radial-gradient(#C6A15B 0.75px, #123F32 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.islamic-pattern-cream {
+  background-color: #F8F5EC;
+  background-image: radial-gradient(#C6A15B 0.8px, transparent 0.8px);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar for trial schedule or modals */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F5EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #C6A15B;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #123F32;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "The Quran Hub",
+  "description": "The Quran Hub — Online Quran academy offering personalized 1-on-1 classes for kids and sisters with a certified solo female Quran teacher, flexible scheduling, and free trial lessons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
